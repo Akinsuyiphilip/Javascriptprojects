@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #17a2bb;
+  min-height: 90vh;
+}
+body .wrapper {
+  width: 450px;
+  background-color: #fff;
+  padding: 30px 25px 40px;
+  border-radius: 7px;
+}
+body .wrapper :where(textarea, input, select, button) {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+body .wrapper textarea {
+  height: 270px;
+  border: 1px solid #ccc;
+  resize: none;
+  padding: 8px 13px;
+}
+body .wrapper .file-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+body .wrapper .file-options .options {
+  width: calc(50% - 8px);
+}
+body .wrapper .file-options .options :where(input, .select-menu) {
+  height: 50px;
+  border: 0.1rem solid #bfbfbf;
+  padding: 0 14px;
+}
+body .wrapper .file-options .options .select-menu select {
+  height: 50px;
+  background: none;
+}
+body .wrapper .save-btn {
+  margin-top: 20px;
+  padding: 16px 0;
+  background: #55c1d4;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
